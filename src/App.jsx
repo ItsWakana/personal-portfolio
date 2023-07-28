@@ -1,8 +1,12 @@
-import { useState } from 'react'
+import Introduction from "./components/Introduction"
 
 function App() {
 
-  return <h1 className="text-3xl">Personal Portfolio</h1>
+  return (
+    <header className="flex items-center justify-center">
+      <Introduction />
+    </header>
+  )
 }
 
 export default App
