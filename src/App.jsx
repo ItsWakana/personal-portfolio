@@ -3,9 +3,12 @@ import Introduction from "./components/Introduction"
 function App() {
 
   return (
-    <header className="flex items-center justify-center">
+    <div>
+      <header className="flex items-center justify-center bg-blue-500">
       <Introduction />
     </header>
+
+    </div>
   )
 }
 
