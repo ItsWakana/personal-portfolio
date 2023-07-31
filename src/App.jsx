@@ -1,4 +1,5 @@
 import Introduction from "./components/Introduction"
+import Projects from "./components/Projects"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <Introduction />
     </header>
 
+    <Projects />
     </div>
   )
 }
