@@ -2,7 +2,7 @@ const projectData = [
     {
         id: 1,
         name: 'Photo Tagging App',
-        description: 'A game where you find the characters in the fatest time possible, interacts with a firebase as a backend.',
+        description: 'A game where you find the characters in the fatest time.',
     },
     {
         id: 2,

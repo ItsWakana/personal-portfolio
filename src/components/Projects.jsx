@@ -1,5 +1,5 @@
 import projectData from "../projectData";
-
+import placeholder from '../assets/project-placeholder.png';
 const Projects = () => {
 
     return (
@@ -9,9 +9,11 @@ const Projects = () => {
                 {projectData.map((project) => (
                     <li 
                     className="projects__project" key={project.id}>
-                        <div className="project__image"></div>
-                        <h3 className="font-semibold">{project.name}</h3>
-                        <p className="text-sm">{project.description}</p>
+                        <img src={placeholder} alt="project-image"/>
+                        <div className="shadow-black shadow-sm">
+                            <h3 className="font-semibold">{project.name}</h3>
+                            <p className="text-sm">{project.description}</p>
+                        </div>
                     </li>
                 ))}
             </ul>

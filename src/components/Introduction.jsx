@@ -4,7 +4,7 @@ import twitterIcon from '../assets/icons/twitter.svg';
 const Introduction = () => {
 
     return (
-        <div className="flex items-center max-w-[900px] p-8">
+        <div className="flex flex-col items-center max-w-[900px] p-8 md:flex-row gap-5">
             <img className="w-6/12 max-w-[400px] rounded-md" 
             src={profileIcon} 
             alt="portfolio profile photo"/>
