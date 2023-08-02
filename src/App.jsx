@@ -1,15 +1,15 @@
-import Introduction from "./components/Introduction"
-import ProjectCollection from "./components/ProjectCollection"
+import Introduction from "./components/Introduction";
+import ProjectCollection from "./components/ProjectCollection";
+import Footer from "./components/Footer";
+
 function App() {
 
   return (
-    <div>
-      <header className="flex items-center justify-center bg-blue-500">
+    <>
       <Introduction />
-    </header>
-
-    <ProjectCollection />
-    </div>
+      <ProjectCollection />
+      <Footer />
+    </>
   )
 }
 
