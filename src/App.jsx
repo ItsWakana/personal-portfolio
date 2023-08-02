@@ -1,6 +1,5 @@
 import Introduction from "./components/Introduction"
-import Projects from "./components/Projects"
-
+import ProjectCollection from "./components/ProjectCollection"
 function App() {
 
   return (
@@ -9,9 +8,9 @@ function App() {
       <Introduction />
     </header>
 
-    <Projects />
+    <ProjectCollection />
     </div>
   )
 }
 
-export default App
+export default App;
