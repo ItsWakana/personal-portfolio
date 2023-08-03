@@ -3,8 +3,8 @@ import Project from "./Project";
 
 const ProjectCollection = () => {
 	return (
-		<section className="text-center">
-			<h2 className="text-xl font-semibold">My Work</h2>
+		<section id="projects" className="text-center pt-5">
+			<h2 className="text-4xl font-semibold">My Projects</h2>
 			<div className="project-container">
 				{projectData.map((project) => (
                     <Project 

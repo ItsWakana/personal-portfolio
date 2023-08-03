@@ -6,7 +6,11 @@ const Navbar = () => {
         <ul>
             <li 
             className="bg-neutral-950 text-white font-semibold px-2 py-1 rounded-sm">
-                <button>PROJECTS</button>
+                <button>
+                    <a href="#projects">
+                        PROJECTS
+                    </a>
+                </button>
             </li >
             <li 
             className="bg-neutral-950 text-white font-semibold px-2 py-1 rounded-sm">

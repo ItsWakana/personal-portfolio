@@ -8,10 +8,14 @@ const MainHeader = () => {
     return (
         <header className="header">
             <Navbar />
-            <h1 className="main-heading absolute left-10 top-20 text-neutral-950">Personal <br></br>
-            <span>Portfolio</span></h1>
             <img className="header__image"src={backgroundUrl} alt="header-image" />
-            <img className=" down-icon absolute bottom-5 left-1/2 w-10" src={downIcon} alt="direct-down-icon"/>
+                <h1 className="main-heading absolute top-20 text-neutral-950 select-none">Personal <br></br>
+                <span>Portfolio</span></h1>
+            <button className="down-icon absolute bottom-5 w-10">
+                <a href="#projects">
+                <img src={downIcon} alt="direct-down-icon"/> 
+                </a>
+            </button>
         </header>
     )
 }
