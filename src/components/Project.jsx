@@ -8,7 +8,7 @@ const Project = ( {project }) => {
   return (
     <div className="project" key={project.id}>
         <img src={placeholder} alt="project-image" />
-        <div className="flex flex-col items-start gap-3 p-2 shadow-slate-400 shadow-md h-full bg-white">
+        <div className="flex flex-col items-start gap-3 p-2 shadow-slate-400 shadow-md bg-white">
             <div className="flex items-center w-full justify-between">
                 <h3 className="font-semibold">{project.name}</h3>
                 <div className="flex gap-2">
