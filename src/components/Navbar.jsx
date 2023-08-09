@@ -4,11 +4,13 @@ const Navbar = () => {
 
     const [currentTab, setCurrentTab] = useState(null);
 
+    const gradientTextStyle = 'text-transparent bg-gradient-to-r from-amber-600 to-red-600 bg-clip-text';
+
     return (
         <nav className="navbar mt-4">
         <ul>
             <li 
-            className={`text-${currentTab === 'projects' ? 'orange-600' : 'white'} font-semibold px-2 py-1`}>
+            className={`${currentTab === 'projects' ? gradientTextStyle : 'text-white'} font-semibold px-2 py-1`}>
                 <button onClick={() => setCurrentTab('projects')}>
                     <a href="#projects">
                         PROJECTS
@@ -16,11 +18,11 @@ const Navbar = () => {
                 </button>
             </li >
             <li 
-            className={`text-${currentTab === 'about' ? 'orange-600' : 'white'} font-semibold px-2 py-1`}>
+            className={`${currentTab === 'about' ? gradientTextStyle : 'text-white'} font-semibold px-2 py-1`}>
                 <button onClick={() => setCurrentTab('about')}>ABOUT</button>
             </li>
             <li 
-            className={`text-${currentTab === 'contact' ? 'orange-600' : 'white'} font-semibold px-2 py-1`}>
+            className={`${currentTab === 'contact' ? gradientTextStyle : 'text-white'} font-semibold px-2 py-1`}>
                 <button onClick={() => setCurrentTab('contact')}>CONTACT</button>
             </li>
         </ul>
