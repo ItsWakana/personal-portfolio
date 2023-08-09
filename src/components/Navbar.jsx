@@ -5,7 +5,7 @@ const Navbar = () => {
     const [currentTab, setCurrentTab] = useState(null);
 
     return (
-        <nav className="navbar">
+        <nav className="navbar mt-4">
         <ul>
             <li 
             className={`text-${currentTab === 'projects' ? 'orange-600' : 'white'} font-semibold px-2 py-1`}>
