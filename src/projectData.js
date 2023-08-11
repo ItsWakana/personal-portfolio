@@ -1,6 +1,6 @@
 export const techColor = {
     'ReactJS': 'bg-emerald-500',
-    'Tailwind CSS': 'bg-cyan-600',
+    'Tailwind': 'bg-cyan-600',
     'Firebase': 'bg-green-600',
     'CSS': 'bg-blue-600',
     'Javascript': 'bg-red-600',
@@ -12,7 +12,7 @@ const projectData = [
         id: 1,
         name: 'Photo Tagging App',
         description: 'A game where you find the characters in the fatest time.',
-        technologies: ['ReactJS', 'Tailwind CSS', 'Firebase'],
+        technologies: ['ReactJS', 'Tailwind', 'Firebase'],
         repoUrl: 'https://github.com/ItsWakana/Photo-tagging-app',
         liveUrl: 'https://character-finder-3b6c2.web.app/'
     },
