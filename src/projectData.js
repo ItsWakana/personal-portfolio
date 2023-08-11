@@ -39,7 +39,24 @@ const projectData = [
         technologies: ['Javascript', 'HTML', 'CSS'],
         repoUrl: 'https://github.com/ItsWakana/battleship',
         liveUrl: 'https://itswakana.github.io/battleship/'
-    }
+    },
+    {
+        id: 5,
+        name: 'Placeholder Project',
+        description: 'Placeholder project description.',
+        technologies: ['ReactJS', 'Tailwind', 'Firebase'],
+        repoUrl: 'https://github.com/ItsWakana/Photo-tagging-app',
+        liveUrl: 'https://character-finder-3b6c2.web.app/'
+    },
+    {
+        id: 6,
+        name: 'Placeholder Project',
+        description: 'Placeholder project description.',
+        technologies: ['Javascript', 'CSS', 'Firebase'],
+        repoUrl: 'https://github.com/ItsWakana/Photo-tagging-app',
+        liveUrl: 'https://character-finder-3b6c2.web.app/'
+    },
+
 ];
 
 export default projectData;
