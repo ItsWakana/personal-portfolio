@@ -9,7 +9,7 @@ const ProjectCollection = () => {
 			<p className="text-white mt-4"><i>I have curated a selection of my programming projects. These projects use a mixture of HTML, CSS, and JavaScript.</i></p>
 			</div>
 			{/* <div className="grid gap-10 md:grid-cols-3 grid-cols-1 lg:mx-40 mx-8 my-6"> */}
-			<div className="flex justify-center flex-wrap border-2 border-red-600 gap-5">
+			<div className="flex justify-center flex-wrap gap-5 mx-8 my-6">
 				{projectData.map((project) => (
                     <Project 
                     key={project.id} 
