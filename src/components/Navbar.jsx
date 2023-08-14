@@ -19,11 +19,19 @@ const Navbar = () => {
             </li >
             <li 
             className={`${currentTab === 'about' ? gradientTextStyle : 'text-white'} font-semibold px-2 py-1`}>
-                <button onClick={() => setCurrentTab('about')}>ABOUT</button>
+                <button onClick={() => setCurrentTab('about')}>
+                    <a href="#about">
+                        ABOUT
+                    </a>
+                </button>
             </li>
             <li 
             className={`${currentTab === 'contact' ? gradientTextStyle : 'text-white'} font-semibold px-2 py-1`}>
-                <button onClick={() => setCurrentTab('contact')}>CONTACT</button>
+                <button onClick={() => setCurrentTab('contact')}>
+                    <a href="#contact">
+                        CONTACT
+                    </a>
+                </button>
             </li>
         </ul>
         </nav>
