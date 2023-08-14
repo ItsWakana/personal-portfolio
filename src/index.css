@@ -30,7 +30,7 @@ input:focus + label,
 input:valid + label,
 textarea:focus + label,
 textarea:valid + label {
-    transform: translateY(-16px);
+    transform: translateY(-13px);
     font-size: 0.7rem;
 
 }

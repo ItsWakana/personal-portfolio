@@ -1,12 +1,17 @@
 const Footer = () => {
-    const labelStyling = "absolute left-2 top-5 text-md text-gray-400";
+    const labelStyling = "absolute left-2 top-4 text-md text-gray-400";
+    const mainGradient = "bg-gradient-to-r from-orange-500 to-orange-700";
 
+    const handleSubmit = (event) => {
+        event.preventDefault();
+    }
+    
     return (
         <footer className="bg-gray-950 text-center pb-20"> 
-            <h3 id="contact" className="text-4xl text-white font-semibold">Contact <span className="text-transparent bg-gradient-to-r from-amber-600 via-orange-500 to-red-800 bg-clip-text">Me</span></h3>
-
+            <h3 id="contact" className="text-4xl text-white font-semibold">Contact <span className="text-orange-600">Me</span></h3>
+			<p className="text-white mt-4"><i>Reach out on the form below, I would love to hear from you!</i></p>
             <div className="flex justify-center mt-5">
-                <form className="min-w-[250px] w-2/4 flex flex-col gap-3 bg-orange-600 p-8 rounded-lg">
+                <form onSubmit={handleSubmit} className={`min-w-[250px] w-2/4 flex flex-col gap-3 p-8 rounded-lg ${mainGradient}`}>
                     <div className="flex md:flex-row flex-col justify-center gap-3">
                         <div className="w-full relative">
                             <input type="text" id="name" className="w-full" required/>
