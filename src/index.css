@@ -15,6 +15,12 @@ html {
     scroll-behavior: smooth;
 }
 
+input,
+textarea {
+    padding: 10px;
+    border-radius: 4px;
+}
+
 .project {
     display: flex;
     flex-direction: column;
