@@ -1,8 +1,13 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What I learned
 
-Currently, two official plugins are available:
+- I considered a mobile first approach from the get go with this portfolio project. The spec wanted a dynamic website which could work on mobile and desktop so that was the main goal. Heavy use of flexbox and min and max sizing to achieve this was used. I tried to limit myself from using fixed sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Implmenting the majority of my CSS with tailwind: I wrote most of my css inline with tailwind, this included using tailwinds in built media query options.
+
+## How I could improve moving forward
+
+- Continue working on my tailwind CSS and improve effeciency using it. 
+
+- Work more with flexbox as well as grid. I feel that grid is very good when used in combination with flex.
